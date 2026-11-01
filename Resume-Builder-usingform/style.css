@@ -1,0 +1,53 @@
+body{
+    font-family:Arial,sans-serif;
+    background-color:aqua;
+    margin:0;
+    padding:20px;
+}
+.container{
+    max-width:800px;
+    margin:0 auto;
+    padding:20px;
+    background:white;
+}
+h1{
+    text-align:center;
+    color:deeppink;
+}
+label{
+    display:block;
+    margin-top:12px;
+    font-weight:bold;
+}
+input,textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    box-sizing:border-box;
+}
+button{
+    width:100%;
+    padding:12px;
+    background-color:lawngreen;
+    border-radius: 5px;
+    margin-top:20px;
+    font-weight:bpld;
+    cursor:pointer;
+}
+button-hover{
+    background-color:#1d4ed8;
+}
+#resumeOutput{
+    margin-top:25px;
+    padding:15px;
+    border:2px solid coral;
+    border-radius:8px;
+    display:none;
+}
+.resumetitle{
+    background-color:brown;
+    padding:6px;
+    font-weight:bold;
+    margin-top:12px;
+    border-left:4px solid purple
+}

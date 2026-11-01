@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <title>Dynamic Resume Builder</title>
+    <!--CSS file linking-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>RESUME BUILDER FORM</h1>
+    <form id="resumeform">
+        <label>Full Name</label>
+        <input type="text" id="name" required=placeholder="Enter full name"><br><br>
+
+        <label>Date of Birth</label>
+        <input type="text" id="dob"><br><br>
+
+        <label>Career objective</label>
+        <input type="text" id="objective" required placeholder><br><br>
+
+        <label>Education</label>
+        <input type="text" id="education" required placeholder><br><br>
+        
+        <label>Skills(seperated by comma)</label>
+        <input type="text" id="skills" required placeholder><br><br>
+
+        <label>hobbies</label>
+        <input type="text" id="hobbies" required placeholder><br><br>
+
+        <label>Phone</label>
+        <input type="tel" id="phone" required placeholder><br><br>
+
+        <label>Email</label>
+        <input type="text" id="email" required placeholder><br><br>
+
+        <label>Address</label>
+        <input type="text" id="address" required placeholder><br><br>
+
+        <button type="button"id="generateBtn" style="background-color: limegreen;color:white;padding:10px; width:100%;">Generate Resume</button>
+    </form>
+    <!--same page veiw of submitted output-->
+    <div id="resumeOutput" style="margin-top:20px;border:1pxsolid#ccc;padding:15px;display:none;"></div>
+</div>
+<!--linking of java script-->
+<script src="script.js"></script>
+</body>
+</html>
